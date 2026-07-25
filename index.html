@@ -5,6 +5,8 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description"
+content="NorthPeak Digital builds modern websites, mobile applications, UI/UX solutions and digital marketing strategies for growing businesses.">
 
     <title>NorthPeak Digital</title>
 
@@ -45,7 +47,7 @@
 
             </ul>
 
-            <a href="#" class="btn-nav">
+            <a href="#contact" class="btn-nav">
                 Get Started
             </a>
 
@@ -54,6 +56,7 @@
     </header>
 
     <!-- ================= HERO ================= -->
+<main>
 
     <section id="home" class="hero">
 
@@ -81,7 +84,7 @@
 
             <div class="hero-buttons">
 
-                <a href="#" class="primary-btn">
+                <a href="#contact" class="primary-btn">
                     Get Started
                 </a>
 
@@ -96,8 +99,11 @@
         <div class="hero-right">
 <div class="hero-image">
 
-    <img src="assets/hero.svg"
-         alt="Digital Agency Illustration">
+    <img
+    src="assets/hero.svg"
+    alt="Digital Agency Illustration"
+    width="500"
+    height="400">
 
 </div>
         </div>
@@ -436,7 +442,7 @@
 
             </ul>
 
-            <a href="#" class="plan-btn">Contact Us</a>
+            <a href="#contact" class="plan-btn">Contact Us</a>
 
         </div>
 
@@ -469,7 +475,7 @@
             </p>
 
             <div class="info-box">
-                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-phone" aria-hidden="true"></i>
 
                 <div>
                     <h4>Phone</h4>
@@ -478,7 +484,7 @@
             </div>
 
             <div class="info-box">
-                <i class="fa-solid fa-envelope"></i>
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
 
                 <div>
                     <h4>Email</h4>
@@ -487,7 +493,7 @@
             </div>
 
             <div class="info-box">
-                <i class="fa-solid fa-location-dot"></i>
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
 
                 <div>
                     <h4>Location</h4>
@@ -496,7 +502,7 @@
             </div>
 
             <div class="info-box">
-                <i class="fa-solid fa-clock"></i>
+                <i class="fa-solid fa-clock" aria-hidden="true"></i>
 
                 <div>
                     <h4>Working Hours</h4>
@@ -512,28 +518,32 @@
 
            <form id="contactForm">
 
-    <input
-        type="text"
-        id="name"
-        placeholder="Full Name"
-        required>
+    <label for="name">Full Name</label>
 
-    <input
-        type="email"
-        id="email"
-        placeholder="Email Address"
-        required>
+<input
+type="text"
+id="name"
+placeholder="Full Name"
+required>
 
-    <input
-        type="text"
-        id="company"
-        placeholder="Company Name">
+    <label for="email">Email Address</label>
 
-    <textarea
-        id="message"
-        rows="6"
-        placeholder="Tell us about your project..."
-        required></textarea>
+<input
+type="email"
+id="email"
+required>
+
+    <label for="company">Company Name</label>
+
+<input
+type="text"
+id="company">
+
+    <label for="message">Project Details</label>
+
+<textarea
+id="message">
+</textarea>
 
     <button type="submit">
         Send Message
@@ -569,7 +579,7 @@
 
         </p>
 
-        <a href="#" class="cta-btn">
+        <a href="#contact" class="cta-btn">
 
             Start Your Project
 
@@ -578,6 +588,7 @@
     </div>
 
 </section> 
+</main>
 <!-- ================= FOOTER ================= -->
 
 <footer class="footer">
@@ -602,9 +613,9 @@
             <h3>Quick Links</h3>
 
             <a href="#">Home</a>
-            <a href="#">Services</a>
-            <a href="#">Pricing</a>
-            <a href="#">Contact</a>
+            <a href="#services">Services</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
 
         </div>
 
@@ -612,10 +623,10 @@
 
             <h3>Services</h3>
 
-            <a href="#">Web Development</a>
-            <a href="#">UI / UX Design</a>
-            <a href="#">Digital Marketing</a>
-            <a href="#">Cloud Solutions</a>
+            <a href="#services">Web Development</a>
+            <a href="#services">UI / UX Design</a>
+            <a href="#services">Digital Marketing</a>
+            <a href="#services">Cloud Solutions</a>
 
         </div>
 
@@ -625,13 +636,21 @@
 
             <div class="social-icons">
 
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+               <a href="https://linkedin.com" aria-label="LinkedIn">
+    <i class="fab fa-linkedin" aria-hidden="true"></i>
+</a>
 
-                <a href="#"><i class="fab fa-github"></i></a>
+<a href="https://github.com" aria-label="GitHub">
+    <i class="fab fa-github" aria-hidden="true"></i>
+</a>
 
-                <a href="#"><i class="fab fa-instagram"></i></a>
+<a href="https://instagram.com" aria-label="Instagram">
+    <i class="fab fa-instagram" aria-hidden="true"></i>
+</a>
 
-                <a href="#"><i class="fab fa-twitter"></i></a>
+<a href="https://twitter.com" aria-label="Twitter">
+    <i class="fab fa-twitter" aria-hidden="true"></i>
+</a>
 
             </div>
 
